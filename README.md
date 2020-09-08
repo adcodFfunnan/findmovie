@@ -12,14 +12,7 @@ The app have the functionalities of displaying the top 10 rated TV shows and the
 <pre>
 	<code class="language-bash">git clone https://github.com/adcodFfunnan/findmovie.git</code>
 </pre>
-<p>next in file Show.tsx change</p>
-<pre>
-	<code class="language-bash">Redirect exact from="/findmovie/" to="/tvshows"</code>
-</pre>
-<p>with</p>
-<pre>
-    <code class="language-bash">Redirect exact from="/" to="/tvshows"</code>
-</pre>
+
 <p>next open your project folder</p>
 <pre>
 	<code class="language-bash">cd findmovie</code>
