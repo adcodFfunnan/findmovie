@@ -1,0 +1,234 @@
+body{
+    background-color:#f9f9f9;
+  }
+  .Title{
+    position:absolute;
+    color:white;
+    top:15px;
+    right:5%;
+    text-align:right;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  .TitleIMG{
+    position:absolute;
+    top:80px;
+    right:5%;
+    width:80px;
+    height:80px;
+  }
+  
+  .Header{
+    background-color:#80ced6;
+    position: fixed;
+    top:0px;
+    z-index:1;
+    
+    
+    width:100%;
+    padding:50px 0px 100px 0px;
+  }
+  .NavBar{
+    position:relative;
+    width:70%;
+    left:16%;
+    top:5px;
+    z-index:2;
+  }
+  
+  .NavBar li{
+    list-style-type:none;
+    display:inline-block;
+    position: relative;
+    left:-45px;
+    margin-right:20px;
+  }
+  .NavLink{
+    padding:10px;
+    background-color: #c94c4c;
+    color:white;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    text-decoration:none;
+  }
+  .NavLink.selected{
+    background-color:#2b2828;
+    padding:11px;
+    border:2px solid #323232;
+  }
+  .InputDiv{
+    position:relative;
+    left:16%;
+    top:30px;
+    width:64%;
+    padding-top:40px;
+  }
+  .SearchIMG{
+    position:absolute;
+    top:14px;
+    left:2%;
+    width:20px;
+    height:20px;
+    z-index:3;
+    opacity: 0.2;
+  
+    
+  }
+  input{
+    position:absolute ;
+    left:0px;
+    top:0px;
+    height:100%; 
+    width:100%;
+    outline:none;
+    font-family: FontAwesome;
+    font-size:20px;
+    color:rgba(0,0,0,0.7);
+    border-width: thin;
+    border-color:rgba(0,0,0,0.2);
+    border-radius: 30px;
+    padding-left:5%;
+    
+    z-index:2;
+  }
+  
+  
+  .MovieList{
+    position: relative;
+    width:70%;
+    left:15%;
+    top:250px;
+  }
+  .ImgDiv{
+    position: relative;
+    display: inline-block;
+    width:32%;
+    padding-top:45%;
+    margin:0px 0px 0.8% 1%; 
+  }
+  .Image{
+    position:absolute;
+    top:0px;
+    height: 80%;
+    width:100%;
+  }
+  .ItemTitle{
+    position: absolute;
+    top:82%;
+    width:100%;
+    height:18%;
+    background-color:rgb(240,240,240,0.5);
+  }
+  .TitleLeft{
+    position: relative;
+    display:inline-block;
+    width:85%;
+    height: 100%;
+    text-align:justify;
+    
+    overflow: hidden;
+  }
+  .TitleLeft h3{
+    font-size:20px;
+    line-height: 25px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left:10%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    color:rgb(0,0,0,0.7);
+  }
+  
+  .ShowDetails{
+    position:relative;
+    top:60px;
+    width:60%;
+    left:20%;
+  }
+  .GoBack{
+    margin-bottom:40px;
+  }
+  .GoBackIMG{
+    position:relative;
+    width:45px;
+    height:45px;
+  }
+  .ImgDivD{
+    position: relative;
+    display: inline-block;
+    width:100%;
+    padding-top:45%;
+  }
+  .ImageD{
+    position:absolute;
+    top:0px;
+    height: 100%;
+    width:100%;
+  }
+  
+  .ItemTitleD{
+    margin-top:10px;
+    position: relative;
+    width:100%;
+    height:40px;
+    background-color:#c94c4c;
+    overflow: hidden;
+    
+  }
+  .ItemTitleD h3{
+    color:white;
+    font-size:20px;
+    font-family:'Open Sans', sans-serif;
+    margin:0;
+    position: absolute;
+    top: 50%;
+    left:5%;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    
+  }
+  
+  
+  .Overview
+  {
+    margin-top:10px;
+    padding:1px 0px 1px 0px;
+    background-color:rgb(240,240,240,0.5);
+    color:rgb(0,0,0,0.7);
+    font-size:20px;
+    text-align:justify;
+    
+   
+  }
+  
+  
+  
+  @media screen and (max-width:1000px){
+  
+    .InputDiv{
+      width:60%;
+    }
+    input{
+      padding-left:9%;
+    }
+    .TitleIMG{
+      width:60px;
+      height:60px;
+    }
+    .TitleLeft h3{
+      font-size:15px;
+      line-height: 20px;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .TitleLeft h3{
+      font-size:9px;
+      line-height: 10px;
+    }
+    .NavBar li{
+      display:block;
+      margin-bottom:30px;
+    }
+  }
