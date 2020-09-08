@@ -26,7 +26,7 @@ function Show() {
         <div>
             <Router>
                 <Switch>
-                    <Redirect exact from="/" to="/tvshows" />
+                    <Redirect exact from="/findmovie/" to="/tvshows" />
 
                     <Route path="/movies">
                         <div className="Header">
