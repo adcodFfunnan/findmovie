@@ -14,11 +14,11 @@ The app have the functionalities of displaying the top 10 rated TV shows and the
 </pre>
 <p>next in file Show.tsx change</p>
 <pre>
-	<code class="language-bash">"<Redirect exact from="/findmovie/" to="/tvshows" />"</code>
+	<p class="language-bash"><Redirect exact from="/findmovie/" to="/tvshows" /></p>
 </pre>
 <p>with</p>
 <pre>
-    <code class="language-bash"><Redirect exact from="/" to="/tvshows" /></code>
+    <Redirect exact from="/" to="/tvshows" />
 </pre>
 <p>next open your project folder</p>
 <pre>
