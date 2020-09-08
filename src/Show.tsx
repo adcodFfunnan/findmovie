@@ -26,7 +26,7 @@ function Show() {
         <div>
             <Router>
                 <Switch>
-                    <Redirect exact from="/findmovie" to="/findmovie/tvshows" />
+                    <Redirect exact from="http://adcodFfunnan.github.io/findmovie" to="/findmovie/tvshows" />
 
                     <Route path="/findmovie/movies">
                         <div className="Header">
