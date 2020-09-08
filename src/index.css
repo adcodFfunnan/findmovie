@@ -224,11 +224,27 @@ body{
   
   @media screen and (max-width:600px){
     .TitleLeft h3{
-      font-size:9px;
+      font-size:15px;
       line-height: 10px;
     }
     .NavBar li{
       display:block;
       margin-bottom:30px;
     }
+    .MovieList{
+      top:315px;
+      width:100%;
+      left:0%;
+      
+    }
+    .ImgDiv{
+      width:100%;
+      padding-top:80%;
+    }
+
+    .ShowDetails{
+      width:90%;
+      left:5%;
+    }
+
   }
