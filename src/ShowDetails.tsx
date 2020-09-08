@@ -30,11 +30,11 @@ function ShowDetails(props: LocationT) {
     if (sendFrom === "movies") {
         urlFirstPart = "https://api.themoviedb.org/3/movie/";
         urlsecondPart = "/videos?api_key=3b3b21534bb573b2344025cd8e70c515&language=en-US";
-        backPath = "/findmovie/movies";
+        backPath = "/movies";
     } else {
         urlFirstPart = "https://api.themoviedb.org/3/tv/";
         urlsecondPart = "/videos?api_key=3b3b21534bb573b2344025cd8e70c515&language=en-US";
-        backPath = "/findmovie/tvshows";
+        backPath = "/tvshows";
     }
 
     const fetchVideo = () => {

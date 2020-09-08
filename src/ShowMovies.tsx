@@ -60,7 +60,7 @@ function ShowMovies(props: { searchInput: string }) {
             {searchResults.map(item =>
                 <div className="ImgDiv">
                     <NavLink to={{
-                        pathname: "/findmovie/details",
+                        pathname: "/details",
                         state: {
                             id: item.id,
                             poster_path: item.poster_path,

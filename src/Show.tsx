@@ -26,9 +26,9 @@ function Show() {
         <div>
             <Router>
                 <Switch>
-                    <Redirect exact from="http://adcodFfunnan.github.io/findmovie" to="/findmovie/tvshows" />
+                    <Redirect exact from="https://adcodFfunnan.github.io/findmovie/" to="/tvshows" />
 
-                    <Route path="/findmovie/movies">
+                    <Route path="/movies">
                         <div className="Header">
                         <Navbar />
                         <SearchInput searchInput={searchInput}
@@ -37,7 +37,7 @@ function Show() {
                         <ShowMovies searchInput={searchInput} />
                     </Route>
 
-                    <Route path="/findmovie/tvshows">
+                    <Route path="/tvshows">
                     <div className="Header">
                         <Navbar />
                         <SearchInput searchInput={searchInput}
@@ -46,7 +46,7 @@ function Show() {
                         <ShowTV searchInput={searchInput} />
                     </Route>
 
-                    <Route path="/findmovie/details" component={ShowDetails} />
+                    <Route path="/details" component={ShowDetails} />
 
                 </Switch>
 
