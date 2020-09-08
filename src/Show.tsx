@@ -26,9 +26,9 @@ function Show() {
         <div>
             <Router>
                 <Switch>
-                    <Redirect exact from="/" to="tvshows" />
+                    <Redirect exact from="/findmovie" to="/findmovie/tvshows" />
 
-                    <Route path="/movies">
+                    <Route path="/findmovie/movies">
                         <div className="Header">
                         <Navbar />
                         <SearchInput searchInput={searchInput}
@@ -37,7 +37,7 @@ function Show() {
                         <ShowMovies searchInput={searchInput} />
                     </Route>
 
-                    <Route path="/tvshows">
+                    <Route path="/findmovie/tvshows">
                     <div className="Header">
                         <Navbar />
                         <SearchInput searchInput={searchInput}
@@ -46,7 +46,7 @@ function Show() {
                         <ShowTV searchInput={searchInput} />
                     </Route>
 
-                    <Route path="/details" component={ShowDetails} />
+                    <Route path="/findmovie/details" component={ShowDetails} />
 
                 </Switch>
 
