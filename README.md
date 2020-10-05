@@ -3,7 +3,8 @@
 
 <h2>About</h2>
 <p>
-The app have the functionalities of displaying the top 10 rated TV shows and the top 10 movies, a search function for both and a detail view for individual items. The app is responsive.
+It is a movie search application created using the React JS and The Movie Database API. 
+The app allows users to search for movies or TV shows and provide detailed descriptions with trailers.
 </p>
 
 <h2>Cloning and Running the app in Local</h2>
