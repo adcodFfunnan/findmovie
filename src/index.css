@@ -36,7 +36,7 @@ body{
   }
   .NavLink{
     padding:10px;
-    background-color: #c94c4c;
+    background-color:#2b2828;
     color:white;
     font-family: Verdana,sans-serif;
     font-size: 15px;
@@ -45,7 +45,7 @@ body{
   }
   .NavLink.Selected{
     padding: 10px;
-    background-color:#2b2828;
+    background-color: #c94c4c;
   
   }
   .InputDiv{
@@ -265,19 +265,15 @@ body{
 
     .NavLink{
       position: relative;
-      padding:16px 0px 16px 20px;
+      padding:15px 0px 15px 20px;
       display:block;
       left:0px;
       text-align: left;
-      background-color: #c94c4c;
-      color:white;
-      font-family: Verdana,sans-serif;
       font-size: 20px;
-      text-decoration:none;
       margin-right:0px;
     }
     .NavLink.Selected{
-      padding:16px 0px 16px 20px;
+      padding:15px 0px 15px 20px;
     }
     .TitleIMG{
       position:absolute;
