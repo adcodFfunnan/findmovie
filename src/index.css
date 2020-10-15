@@ -253,10 +253,11 @@ body{
       position:absolute;
       left:5px;
       top:53px;
-      width:50%;
-      height:100px;
+      width:65%;
+      height:150px;
       transition: height 0.5s;
       overflow: hidden;
+      
     }  
     .SlideNavBar{
       height:0px;
@@ -264,19 +265,19 @@ body{
 
     .NavLink{
       position: relative;
-      padding:15px 0px 15px 20px;
+      padding:20px 0px 20px 20px;
       display:block;
       left:0px;
       text-align: left;
       background-color: #c94c4c;
       color:white;
       font-family: Verdana,sans-serif;
-      font-size: 18px;
+      font-size: 20px;
       text-decoration:none;
       margin-right:0px;
     }
     .NavLink.Selected{
-      padding:15px 0px 15px 20px;
+      padding:20px 0px 20px 20px;
     }
     .TitleIMG{
       position:absolute;
