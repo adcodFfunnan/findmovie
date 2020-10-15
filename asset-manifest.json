@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/findmovie/static/css/main.72b4ea27.chunk.css",
+    "main.css": "/findmovie/static/css/main.02db009f.chunk.css",
     "main.js": "/findmovie/static/js/main.7bb39b7f.chunk.js",
     "main.js.map": "/findmovie/static/js/main.7bb39b7f.chunk.js.map",
     "runtime-main.js": "/findmovie/static/js/runtime-main.3a149ff7.js",
@@ -8,9 +8,9 @@
     "static/js/2.2e1a4706.chunk.js": "/findmovie/static/js/2.2e1a4706.chunk.js",
     "static/js/2.2e1a4706.chunk.js.map": "/findmovie/static/js/2.2e1a4706.chunk.js.map",
     "index.html": "/findmovie/index.html",
-    "precache-manifest.f93d089b14ff0bb1652a4eb65f97cbe3.js": "/findmovie/precache-manifest.f93d089b14ff0bb1652a4eb65f97cbe3.js",
+    "precache-manifest.0cf7cc6a9c7391d2dfd02377bcd8f2db.js": "/findmovie/precache-manifest.0cf7cc6a9c7391d2dfd02377bcd8f2db.js",
     "service-worker.js": "/findmovie/service-worker.js",
-    "static/css/main.72b4ea27.chunk.css.map": "/findmovie/static/css/main.72b4ea27.chunk.css.map",
+    "static/css/main.02db009f.chunk.css.map": "/findmovie/static/css/main.02db009f.chunk.css.map",
     "static/js/2.2e1a4706.chunk.js.LICENSE.txt": "/findmovie/static/js/2.2e1a4706.chunk.js.LICENSE.txt",
     "static/media/cinema.png": "/findmovie/static/media/cinema.2de4040a.png",
     "static/media/search.png": "/findmovie/static/media/search.878c7769.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.3a149ff7.js",
     "static/js/2.2e1a4706.chunk.js",
-    "static/css/main.72b4ea27.chunk.css",
+    "static/css/main.02db009f.chunk.css",
     "static/js/main.7bb39b7f.chunk.js"
   ]
 }
