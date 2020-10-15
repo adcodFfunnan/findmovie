@@ -30,19 +30,19 @@ function Show() {
 
                     <Route path="/movies">
                         <div className="Header">
-                        <Navbar />
-                        <SearchInput searchInput={searchInput}
-                            handleChange={handleChange} />
-                            </div>
+                            <Navbar />
+                            <SearchInput searchInput={searchInput}
+                                handleChange={handleChange} />
+                        </div>
                         <ShowMovies searchInput={searchInput} />
                     </Route>
 
                     <Route path="/tvshows">
-                    <div className="Header">
-                        <Navbar />
-                        <SearchInput searchInput={searchInput}
-                            handleChange={handleChange} />
-                            </div>
+                        <div className="Header">
+                            <Navbar />
+                            <SearchInput searchInput={searchInput}
+                                handleChange={handleChange} />
+                        </div>
                         <ShowTV searchInput={searchInput} />
                     </Route>
 
@@ -57,20 +57,24 @@ function Show() {
 }
 
 function Navbar() {
+    const [faIconClassName, setClassName] = useState("NavBar");
+
+    const faClick = (event: React.MouseEvent<HTMLElement>): void => {
+        (faIconClassName == "NavBar") ?
+            setClassName("NavBar" + " SlideNavBar") :
+            setClassName("NavBar");
+    }
+
     return (
-        <div>
+        <div className="NavBarDiv">
+            <i className="fa fa-bars" onClick={faClick}></i>
             <h1 className="Title">Find Movie</h1>
-            <img className="TitleIMG" src={logo}/>
-            <nav className="NavBar">
-                <ul>
-                    <li>
-                        <NavLink to="/movies" className="NavLink" activeClassName="selected">Movies</NavLink>
-                    </li>
-                    <li>
-                        <NavLink to="/tvshows" className="NavLink" activeClassName="selected">TV Shows</NavLink>
-                    </li>
-                </ul>
+            <img className="TitleIMG" src={logo} />
+            <nav className={faIconClassName}>
+                <NavLink onClick={faClick} to="/movies" className="NavLink" activeClassName="Selected">Movies</NavLink>
+                <NavLink onClick={faClick} to="/tvshows" className="NavLink" activeClassName="Selected">TV Shows</NavLink>
             </nav>
+
         </div>
 
     );
@@ -87,9 +91,9 @@ function SearchInput(props: {
             <input type="text" spellCheck="false"
                 placeholder='Search'
                 value={props.searchInput}
-                onChange={props.handleChange}/>
-                
-           
+                onChange={props.handleChange} />
+
+
         </div>
     );
 }
